@@ -73,9 +73,9 @@ Refer to /sql/sample_data.sql for example data.
 
 4. Configure MySQL credentials in db_config.py.
 
-5. Start the Flask server:
+5. Start the app with:
    ```bash
-   flask run --host=0.0.0.0
+   python3 app.py
    ```
 
 6. Open the URL from any device on the same LAN (e.g., http://192.168.1.100:5000/hardware?id=HW101)
@@ -109,3 +109,9 @@ hardware-qr-app/
 | alice    | wonderland   |
 | bob      | secure456    |
 | admin    | adminpass    |
+
+## See Also
+
+[Custom QR-code generator utility](https://github.com/vbx14/customQR)
+
+Use this utility to generate QR codes using URLs generated over here. 
