@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 100px auto;
+}
+input, button {
+  margin: 5px 0;
+}
+.error {
+  color: red;
+}
