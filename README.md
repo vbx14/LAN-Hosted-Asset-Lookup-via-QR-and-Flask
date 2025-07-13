@@ -1,6 +1,7 @@
 # QR Code–Based Hardware Tracking System
 
 A LAN-hosted, Flask-powered web application for secure IT asset identification using QR codes. This project enables authenticated employees to retrieve real-time hardware specifications by scanning a QR code, logging in via a browser, and querying a MySQL database—all from within a local network.
+**NOTE:**This is a low-level, prototype version of the actual project. It aptly makes one understand the workflow.
 
 ## Overview
 
